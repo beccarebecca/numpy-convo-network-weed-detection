@@ -126,7 +126,7 @@ def convoLayer(input,filter):
   return filterList
 
 def dropOut(n,input):
-  input = input[!n]
+  input = no.delete(input,n)
   return input
 
 # pooling layer computing the maximum of the output layer with the pooling window by 4 by 4 at a time
